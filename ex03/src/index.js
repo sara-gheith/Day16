@@ -1,11 +1,12 @@
 class Person {
 
-    static display() {
-        console.log("Static method is invoked from Person class");
+    static display(message) {
+        return message;
     }
 
-    static show() {
-        console.log(display);
+    show() {
+
+        console.log(Person.display("Static method is invoked from Person class"));
     }
 }
 
