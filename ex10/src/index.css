@@ -1,7 +1,10 @@
-#navbar {
+nav {
     float: left;
+}
+
+#navbar {
     width: 25%;
-    height: 1550px;
+    height: 1750px;
     margin-right: 60px;
     border-right: 1px solid black;
 }
@@ -34,14 +37,19 @@ a:hover {
     width: 352px;
  }
 
-#main_doc {
+main {
     float: left;
     width: 70%;
+}
+
+#main_doc {
     padding-left: 10px;
 }
 
 header {
     font-size: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 strong {
@@ -50,10 +58,13 @@ strong {
 
 p {
     line-height: 1.5;
+    padding-left: 15px;
 }
 
 code {
-    line-height: 2;
+    display: block;
+    white-space: pre;
+    background-color: lightgray;
 }
 
 nav > ul {
