@@ -1,0 +1,61 @@
+#navbar {
+    float: left;
+    width: 25%;
+    height: 1550px;
+    margin-right: 60px;
+    border-right: 1px solid black;
+}
+
+#header {
+    text-align: center;
+}
+
+.nav-links {
+    display: block;
+    padding: 15px;
+    border-bottom: 1px solid black;
+}
+
+a:link {
+    color: rgb(22, 22, 85);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:visited {
+    color: rgb(22, 22, 85);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#header-img {
+    width: 352px;
+ }
+
+#main_doc {
+    float: left;
+    width: 70%;
+    padding-left: 10px;
+}
+
+header {
+    font-size: 35px;
+}
+
+strong {
+    font-size: 18px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+code {
+    line-height: 2;
+}
+
+nav > ul {
+    list-style-type: none;
+}
